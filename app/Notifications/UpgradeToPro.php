@@ -33,7 +33,7 @@ class UpgradeToPro extends Notification
     public function via($notifiable)
     {
         return ['database'];
-    }
+    } 
 
     /**
      * Get the mail representation of the notification.
