@@ -13,8 +13,8 @@ Image Gallery website developed with laravel framework, livewire component, boos
 
 ## screen shots of some pages are shown below.
 
-<p>### Welcome page                                          ### Other file rather than photo</p>
-<p><img src="public/intro/welcome.png">  ' '       <img src="public/intro/other_file.png" ></p>
+<p> ### Welcome page                                          ### Other file rather than photo </p>
+<p> <img src="public/intro/welcome.png">  <img src="public/intro/other_file.png" > </p>
 
 
 ### Image Gallery
