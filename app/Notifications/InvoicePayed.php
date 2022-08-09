@@ -64,6 +64,7 @@ class InvoicePayed extends Notification
         );
         $data = ['title' => $this->title,'info' => $this->info];
         $pusher->trigger('warkaorder'.$notifiable->id, 'App\\Events\\PaymentProcessed',$data);
+        
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
         return $data;
     }

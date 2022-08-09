@@ -157,8 +157,8 @@
     });
     var channel = pusher.subscribe('warkaorder' + id);
     channel.bind('App\\Events\\PaymentProcessed', function(data) {
-          //console.log(data.title);
-          //console.log(data.info);
+          console.log(data.title);
+          console.log(data.info);
           Livewire.emit('notificationAdded');
           document.getElementById('notification_audio').play();
           //document.getElementById('notification-size').innerHTML = '+1';
